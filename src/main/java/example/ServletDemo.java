@@ -17,7 +17,6 @@ import java.sql.Statement;
 //Input/Output Exceptions
 
 @WebServlet("/processForm")
-//@WebServlet(name = "ServletDemo", urlPatterns = {"/ServletDemo"})
 public class ServletDemo extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
