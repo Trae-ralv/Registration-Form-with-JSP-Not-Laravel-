@@ -10,7 +10,7 @@ The primary goal of this project is develop the form in JSP (Not Laravel), conne
 2. Save the submitted form value to database
 3. Display a Thank You page
 
-##Feature
+## Feature
 - Responsive Design
 - Input Floating Placeholder
 - Time Count Bar for auto page navigation
