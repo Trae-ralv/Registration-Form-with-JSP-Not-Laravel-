@@ -2,13 +2,18 @@
 Registration Form with JSP (Not Laravel)
 
 ## Description
-This project is an e-commerce website created for studying purposes. It is not intended for commercial use. The project was built within 3 days. 
+This project is an servlet testing created for Studying Purposes. It is not intended for commercial use. The project was built within 3 days. 
 The primary goal of this project is develop the form in JSP (Not Laravel), connect to MySQL and save the values in the database. 
 
 ## Scenario for registration
 1. Create a Registration form for the programmer along with required validation
 2. Save the submitted form value to database
 3. Display a Thank You page
+
+##Feature
+- Responsive Design
+- Input Floating Placeholder
+- Time Count Bar for auto page navigation
 
 ## Installation
 1. Clone the repository or download the files.
@@ -34,3 +39,4 @@ The primary goal of this project is develop the form in JSP (Not Laravel), conne
 - XAMPP v 3.3.0 (Apache, MySQL, Tomcat)
 - HTML, CSS, JavaScript, Java, JSP, mySQL
 - Bootstrap, Jquery
+
