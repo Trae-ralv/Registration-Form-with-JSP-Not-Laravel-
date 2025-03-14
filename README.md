@@ -21,11 +21,11 @@ The primary goal of this project is develop the form in JSP (Not Laravel), conne
 - Select Oracle Open JDK 23.0.2 under File > Project Structure > Project
 - At File > Project Structure > Libraries, add file JAVA of downloaded file of Tomcat 9.0.102 ".\apache-tomcat-9.0-102\lib\servlet-api.java"
 - Add Server Configurations for:
-  > Smart Tomcat > Tomcat Server > Select the Apache Tomcat 9.0.102 file that u added into xamp
-  > Catalina base:".\IdeaProjects\DSE105_Assignment-1"
-  > Deployment Directory:".\IdeaProjects\DSE105_Assignment-1\src\main\web"
-  > Context path :"/" (any)
-  > Note that u had to add context path, change the default Server port if u are using port 8080 somewhere else
+  - Smart Tomcat > Tomcat Server > Select the Apache Tomcat 9.0.102 file that u added into xamp
+  - Catalina base:".\IdeaProjects\DSE105_Assignment-1"
+  - Deployment Directory:".\IdeaProjects\DSE105_Assignment-1\src\main\web"
+  - Context path :"/" (any)
+  - Note that u had to add context path, change the default Server port if u are using port 8080 somewhere else
 
 ## Technologies/Dependency Used
 - Intellij IDEA Community Edition 2024.3.4.1
