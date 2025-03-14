@@ -21,7 +21,9 @@ The primary goal of this project is develop the form in JSP (Not Laravel), conne
 - Run the project following standard XAMPP configurations.
 
 ## Technologies Used
-- vs code, canva, photopea
-- AI Chatbot 
-- HTML, CSS, JavaScript, PHP
-- JQuery, Ajax, Bootstraps, chart.js
+Intellij IDEA Community Edition 2024.3.4.1
+Apache Tomcat 9.0.102
+Oracle Open JDK 23.0.2
+XAMPP v 3.3.0 (Apache, MySQL, Tomcat)
+HTML, CSS, JavaScript, Java, JSP, mySQL
+Bootstrap, Jquery
