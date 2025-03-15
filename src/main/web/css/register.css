@@ -1,3 +1,4 @@
+/*most of the !important is used to change the default bootstrap settings*/
 body {
     margin: 0;
     min-height: 100vh;
@@ -9,6 +10,7 @@ body {
     color: rgba(227, 227, 227, 0.7) !important;
 }
 
+/* Sets a default width of 60% for the main container, adjusted in media queries for smaller screens. */
 #main-container {
     padding: 3rem 4rem;
     border-radius: 20px;
@@ -22,7 +24,9 @@ body {
     border-radius: 8px;
 }
 
+/* This centers content vertically and horizontally on the page, even with dynamic widgets (as i used to display error messages)*/
 .content {
+    /*flex: 1; ensures it takes up remaining space*/
     flex: 1;
     display: flex;
     align-items: center;
@@ -67,11 +71,14 @@ h2 {
     background-color: transparent !important;
 }
 
+/* Overrides the default light blue autofill background in Webkit browsers. The long transition (600,000s) prevents the background from changing, by default the background color is light blue . */
+/*I get from inspect styles, but can clearly understand*/
 input:-webkit-autofill,
 input:-webkit-autofill:focus {
     transition: background-color 600000s 0s, color 600000s 0s;
 }
 
+/* Ensures autofill background remains transparent in browsers that use the data-autocompleted attribute (e.g., Firefox). */
 input[data-autocompleted] {
     background-color: transparent !important;
 }
@@ -81,6 +88,7 @@ input[data-autocompleted] {
     box-shadow: 0 0 0 0.25rem rgba(0, 137, 87, 0.25) !important;
 }
 
+/* Sets the origin point for label scaling/transformations to the top-left corner. */
 .form-floating label {
     transform-origin: top left;
     transform: translate(0, 0) scale(1);
@@ -94,6 +102,8 @@ input[data-autocompleted] {
     border-radius: 8px;
 }
 
+/* Overrides Bootstrap’s default label background and color when an input is focused or filled(after). */
+/*reason why i set the color again is because the default settings set to another color so i had to set back*/
 .form-floating>.form-control-plaintext~label::after,
 .form-floating>.form-control:focus~label::after,
 .form-floating>.form-control:not(:placeholder-shown)~label::after,
@@ -102,6 +112,7 @@ input[data-autocompleted] {
     background-color: transparent !important;
 }
 
+/* Customizes Bootstrap’s floating label positioning and background when the input is focused or has content. */
 .form-floating>.form-control-plaintext~label,
 .form-floating>.form-control:focus~label,
 .form-floating>.form-control:not(:placeholder-shown)~label,
@@ -120,16 +131,19 @@ input[data-autocompleted] {
     color: rgb(0, 110, 70);
 }
 
+/*validation error message style*/
 .error-message {
     color: red;
     font-size: 0.875rem;
     margin-top: 0.25rem;
 }
 
+/* Styles inputs with validation errors, applied via JavaScript by adding the .invalid class. */
 .invalid {
     border-color: red !important;
 }
 
+/* bs refers to bootstraps */
 .table{
     --bs-table-bg: transparent !important;
     --bs-table-color: #cfcfcf !important;
@@ -149,6 +163,7 @@ input[data-autocompleted] {
     background-color: #cfcfcf;
 }
 
+/* Animates the progress bar width change over 1 second for a smooth visual effect. */
 .progress-bar {
     transition: width 1s linear;
 }
